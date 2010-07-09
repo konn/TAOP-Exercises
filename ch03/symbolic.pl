@@ -1,5 +1,5 @@
 % natural_number(X) :- X は 自然数である。
-natural_number( 0 ).
+natural_number(0).
 natural_number(s(N)) :- natural_number(N).
 
 % polynomial(Expression, X) :- Expression は X の多項式である。
