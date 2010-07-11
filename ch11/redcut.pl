@@ -7,3 +7,4 @@ if_then_else(P, Q, R) :- R.
 
 member_check(X, [X|Xs]) :- !.
 member_check(X, [Y|Xs]) :- member_check(X, Xs).
+
